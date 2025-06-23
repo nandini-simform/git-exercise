@@ -2,7 +2,7 @@ name: first-demo file
 on: push
 jobs:
     build:
-        runs-on: ubuntu
+        runs-on: ubuntu-latest
         steps:
             - name: hello
               run: echo "HELLOO WORLD"
