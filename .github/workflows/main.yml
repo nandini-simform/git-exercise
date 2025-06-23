@@ -1,0 +1,14 @@
+name: first-demo file
+on: push
+jobs:
+    build:
+        runs-on: ubuntu
+        steps:
+            - name: hello
+              run: echo "HELLOO WORLD"
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: byee
+              run: echo "BYEE!!"
+              
